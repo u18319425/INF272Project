@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateMedicalInfo</title>
+</head>
+<body>
+    <h1 class="Heading">Please enter your medical info</h1>
+    <div class="Login">
+
+        <form action="WelcomePage">
+            <label for="txtIllness">Type of Illness</label>
+            <br />
+            <select>
+                <option value="heartDisease">Heart Disease</option>
+                <option value="diabetes">Diabetes</option>
+                <option value="influenza">Influenza</option>
+            </select>
+            <br />
+            <label for="txtAid">Medical Aid:</label>
+            <br />
+            <input type="text" id="txtAid" name="Aid" placeholder="Enter the name of your medical aid, if applicable">
+            <br />
+            <label for="txtAid">Medication:</label>
+            <br />
+            <input type="text" id="txtAid" name="Aid" placeholder="What medication are you on currently?">
+            <br />
+            <input type="Submit" value="Submit">
+        </form>
+
+    </div>
+    <div>
+    </div>
+</body>
+</html>

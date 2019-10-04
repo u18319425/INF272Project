@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SignUp</title>
+</head>
+<body>
+    <a href="https://localhost:44371/Project/Home"><h1 class="Heading"><img src="~/TheFlem.png"></h1></a>
+    <h1 class="Heading">Sign Up</h1>
+    <div class="topnav">
+        <a href="https://localhost:44371/Project/Login">Login Here</a>
+        <a class="active" href="https://localhost:44371/Project/Home">Home</a>
+    </div>
+    <div class="Login">
+
+
+        <form action="CreatePatientDetails">
+            <label for="txtName">Name:</label>
+            <br />
+            <input type="text" id="txtName" name="Name" placeholder="Enter your name">
+            <br />
+            <label for="txtSurname">Surname:</label>
+            <br />
+            <input type="text" id="txtSurname" name="Surname" placeholder="Enter your surname">
+            <br />
+            <label for="txtEmail">Email Address:</label>
+            <br />
+            <input type="text" id="txtEmail" name="Email" placeholder="Enter your email address">
+            <br />
+            <label for="txtCreatePassword">Create New Password:</label>
+            <br />
+            <input id="txtCreatePassword" type="password" placeholder="Create a new password" />
+            <br />
+            <input type="Submit" value="Sign Up">
+        </form>
+
+    </div>
+    <div>
+    </div>
+</body>
+</html>

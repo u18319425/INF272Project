@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>WelcomePage</title>
+</head>
+<body>
+    <a href="https://localhost:44371/Project/Home"><h1 class="Heading"><img src="~/TheFlem.png"></h1></a>
+    <div class="topnav">
+        <a href="~/Views/Project/MedicalInfo.cshtml">Medical Info</a>
+        <a href="https://localhost:44371/Project/PatientDetails">Patient Details</a>
+        <a href="https://localhost:44371/Project/Home">Sign Out</a>
+    </div>
+    <div class="Main">
+        <div class="About">
+            <h1>Welcome, James Jameson. Here are your most recent vitals</h1>
+            <hr />
+        </div>
+        <table class="customers">
+            <tr>
+                <th colspan="9">Vitals</th>
+            </tr>
+            <tr>
+                <td>Heart Rate</td>
+                <td>Blood Sugar</td>
+                <td>White Blood Cell Count</td>
+                <td>Red Blood Cell Count</td>
+                <td>Glucose Level</td>
+                <td>Cholesterol Levels</td>
+                <td>Blood Pressure</td>
+                <td>Body Mass Index</td>
+                <td>Iron Levels</td>
+            </tr>
+            <tr>
+                <td>85bpm</td>
+                <td>30</td>
+                <td>50 000</td>
+                <td>23 658</td>
+                <td>62</td>
+                <td>18</td>
+                <td>12</td>
+                <td>24</td>
+                <td>37</td>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+</html>

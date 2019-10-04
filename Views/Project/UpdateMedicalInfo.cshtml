@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateMedicalInfo</title>
+</head>
+<body>
+    <h1 class="Heading">Update Medical Info</h1>
+    <div class="Login">
+
+        <form action="WelcomePage">
+            <label for="txtIllness">Type of Illness</label>
+            <br />
+            <select>
+                <option value="heartDisease">Heart Disease</option>
+                <option value="diabetes">Diabetes</option>
+                <option value="influenza">Influenza</option>
+            </select>
+            <br />
+            <label for="txtAid">Medical Aid:</label>
+            <br />
+            <input type="text" id="txtAid" name="Aid" placeholder="Update the name of your medical aid, if applicable">
+            <br />
+            <label for="txtAid">Medication:</label>
+            <br />
+            <input type="text" id="txtAid" name="Aid" placeholder="What medication are you changing to?">
+            <br />
+            <input type="Submit" value="Update">
+        </form>
+
+    </div>
+    <div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CreatePatientDetails</title>
+</head>
+<body>
+    <h1 class="Heading">Please enter your personal details</h1>
+    <div class="Main">
+        <div class="Login">
+
+            <form action="CreateMedicalInfo">
+                <label for="txtAge">Age:</label>
+                <br />
+                <input type="text" id="txtAge" name="Age" placeholder="Enter your Age">
+                <br />
+                <label for="txtContact">Contact Details:</label>
+                <br />
+                <input type="text" id="txtContact" name="Contact" placeholder="Enter your phone number">
+                <br />
+                <label for="txtAddress">Address:</label>
+                <br />
+                <input type="text" id="txtAddress" name="Address" placeholder="Enter your address">
+                <br />
+                <input type="Submit" value="Add Details">
+            </form>
+
+        </div>
+    </div>
+    <div>
+    </div>
+</body>
+</html>
