@@ -21,12 +21,12 @@ namespace INF272Project.Controllers
 
         public ActionResult SignUp()
         {
-            return View();
+            return View(WelcomePage());
         }
 
         public ActionResult Login()
         {
-            return View();
+            return View(WelcomePage());
         }
 
         public ActionResult MedicalInfo()
